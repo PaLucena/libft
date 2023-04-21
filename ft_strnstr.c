@@ -6,7 +6,7 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 15:38:36 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/20 09:31:24 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 13:03:09 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strnstr(char *str, char *to_find, size_t n)
 {
-	int	i;
-	int	j;
-	int	c;
+	size_t	i;
+	size_t	j;
+	size_t	c;
 
 	c = 0;
 	if (*to_find == '\0')

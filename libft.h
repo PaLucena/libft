@@ -6,21 +6,14 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 12:06:31 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/20 15:55:46 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 12:18:07 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# include <unistd.h>
-# include <stdlib.h>
 
-typedef struct s_list
-{
-	void			*content;
-	struct s_list	*next;
-	t_list;
-}
+# include <stdlib.h>
 
 int				ft_atoi(char *str);
 void			ft_bzero(void *str, size_t n);
@@ -43,6 +36,7 @@ int				ft_strlen(const char *str);
 int				ft_strncmp(char *s1, char *s2, unsigned	int n);
 char			*ft_strnstr(char *str, char *to_find, size_t n);
 char			*ft_strrchr(const char *str, int c);
+char			*ft_strtrim(char const *s1, char const s2);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
 int				ft_tolower(int c);
 int				ft_toupper(int c);

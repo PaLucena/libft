@@ -1,33 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/18 13:19:59 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/21 13:18:41 by palucena         ###   ########.fr       */
+/*   Created: 2023/04/20 17:50:34 by palucena          #+#    #+#             */
+/*   Updated: 2023/04/20 18:01:17 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+#include <libft.h>
 
-void	*ft_memmove(void *dest, const void *src, size_t n)
+char	*ft_strtrim(char const *s1, char const *set)
 {
-	char		*pt_dest;
-	const char	*pt_src;
-	char		*temp;
-	size_t		i;
+	int		i;
+	char	*res;
 
-	i = -1;
-	temp = malloc(sizeof(char) * n);
-	pt_dest = (char *)dest;
-	pt_src = (const char *)src;
-	while (++i < n)
-		temp[i] = pt_src[i];
-	i = -1;
-	while (++i < n)
-		pt_dest[i] = temp[i];
-	free(temp);
-	return (dest);
+	i = 0;
 }

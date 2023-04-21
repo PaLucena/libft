@@ -6,13 +6,13 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 13:51:33 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/18 13:51:44 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 13:23:00 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_tolower(int c)
 {
-	if (c >= 97 && c <= 122)
+	if (c >= 65 && c <= 90)
 		c += 32;
 	return (c);
 }

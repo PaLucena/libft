@@ -6,7 +6,7 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 17:31:18 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/20 10:54:11 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 13:02:25 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	int			i;
+	size_t		i;
 	const char	*pt_s;
 
 	pt_s = (const char *)s;

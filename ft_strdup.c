@@ -6,7 +6,7 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 11:51:57 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/20 12:03:20 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 11:59:00 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_strdup(const char *s)
 	i = 0;
 	while (s[i])
 		i++;
-	s2 = (char *)malloc(i);
+	s2 = (char *)malloc(i + 1);
 	if (!s2)
 		return (0);
 	i = -1;

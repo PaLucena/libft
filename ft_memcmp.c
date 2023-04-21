@@ -6,7 +6,7 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/19 09:24:28 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/20 09:43:43 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 13:01:45 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	const char	*pt_s1;
 	const char	*pt_s2;
-	int			i;
-	int			count;
+	size_t		i;
+	size_t		count;
 
 	pt_s1 = (const char *) s1;
 	pt_s2 = (const char *) s2;

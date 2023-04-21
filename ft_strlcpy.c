@@ -6,14 +6,16 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 16:44:58 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/18 13:38:11 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/20 17:38:46 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
+#include <stdlib.h>
+
+size_t	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
-	unsigned int	i;
-	unsigned int	res;
+	size_t	i;
+	size_t	res;
 
 	i = 0;
 	res = 0;
