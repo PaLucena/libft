@@ -6,11 +6,11 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 11:33:47 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/18 12:48:53 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 15:10:00 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isdigit(char c)
+int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);

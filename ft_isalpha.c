@@ -6,11 +6,11 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 11:28:13 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/18 12:47:50 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 15:09:54 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(char c)
+int	ft_isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);

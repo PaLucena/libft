@@ -6,14 +6,13 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 11:37:45 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/21 13:16:55 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 15:20:00 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isprint(char c)
+int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
 		return (1);
-	else
-		return (0);
+	return (0);
 }

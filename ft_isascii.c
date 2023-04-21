@@ -6,11 +6,11 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 11:36:43 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/21 13:16:33 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 15:09:57 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isascii(char c)
+int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);

@@ -6,24 +6,22 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 17:27:19 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/19 09:13:40 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 13:53:31 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 char	*ft_strrchr(const char *str, int c)
 {
-	if (!*str && (char) c == '\0')
-		return ((char *) str);
-	while (*str != '\0')
-		str++;
-	str--;
-	while (*str)
+	int	i;
+
+	i = ft_strlen(str);
+	while (i >= 0)
 	{
-		if (*str == (char) c)
-			return ((char *) str);
-		str--;
-		if (*str == (char) c)
-			return ((char *) str);
+		if (str[i] == (char) c)
+			return ((char *)&str[i]);
+		i--;
 	}
 	return (0);
 }

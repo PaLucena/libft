@@ -6,7 +6,7 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/19 09:24:28 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/21 13:01:45 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 16:00:27 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,27 +14,16 @@
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	const char	*pt_s1;
-	const char	*pt_s2;
-	size_t		i;
-	size_t		count;
+	unsigned char	*pt_s1;
+	unsigned char	*pt_s2;
+	size_t			i;
+	size_t			count;
 
-	pt_s1 = (const char *) s1;
-	pt_s2 = (const char *) s2;
+	pt_s1 = (unsigned char *) s1;
+	pt_s2 = (unsigned char *) s2;
 	i = -1;
 	count = 0;
 	while (++i < n)
 		count = count + (pt_s1[i] - pt_s2[i]);
 	return (count);
 }
-
-/* #include <stdio.h>
-
-int	main(void)
-{
-	const void	*s1 = "qwerty";
-	const void	*s2 = "qvertx";
-
-	printf("%i", ft_memcmp(s1, s2, 6));
-	return (0);
-} */

@@ -6,7 +6,7 @@
 #    By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/18 16:54:11 by palucena          #+#    #+#              #
-#    Updated: 2023/04/21 12:41:49 by palucena         ###   ########.fr        #
+#    Updated: 2023/04/21 15:12:12 by palucena         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,7 @@ FILES = ft_isalpha.c\
 	ft_isdigit.c\
 	ft_isalnum.c\
 	ft_isascii.c\
+	ft_isprint.c\
 	ft_strlen.c\
 	ft_memset.c\
 	ft_bzero.c\

@@ -6,24 +6,25 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/19 12:18:43 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/21 13:04:01 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/21 16:34:00 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-void	*ft_calloc(size_t nelem, size_t size)
+void	*ft_calloc(size_t nb, size_t size)
 {
 	char	*ptr;
+	size_t	i;
 
-	size = nelem * sizeof(char);
-	ptr = (char *)malloc(size);
+	ptr = (char *)malloc(size * nb);
 	if (!ptr)
 		return (0);
-	while (*ptr)
+	i = 0;
+	while (i < (nb * size))
 	{
-		ptr = 0;
-		ptr++;
+		ptr[i] = 0;
+		i++;
 	}
 	return (ptr);
 }
