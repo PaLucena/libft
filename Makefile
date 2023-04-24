@@ -6,7 +6,7 @@
 #    By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/18 16:54:11 by palucena          #+#    #+#              #
-#    Updated: 2023/04/23 18:33:58 by palucena         ###   ########.fr        #
+#    Updated: 2023/04/24 16:20:19 by palucena         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,7 +36,8 @@ FILES = ft_isalpha.c\
 	ft_strdup.c\
 	ft_substr.c\
 	ft_strjoin.c\
-	ft_strtrim.c
+	ft_strtrim.c\
+	ft_split.c
 
 OBJECTS = $(FILES:.c=.o)
 
