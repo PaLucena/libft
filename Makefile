@@ -6,7 +6,7 @@
 #    By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/18 16:54:11 by palucena          #+#    #+#              #
-#    Updated: 2023/04/26 12:33:53 by palucena         ###   ########.fr        #
+#    Updated: 2023/04/26 14:00:01 by palucena         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,11 @@ FILES = ft_isalpha.c\
 	ft_putendl_fd.c\
 	ft_putnbr_fd.c
 
+FILES_BONUS = ft_lstnew.c
+
 OBJECTS = $(FILES:.c=.o)
+
+OBJECTS_BONUS = $(FILES_BONUS:.c=.o)
 
 CC = gcc
 
@@ -58,7 +62,7 @@ $(NAME): $(OBJECTS)
 	ar rcs $(NAME) $(OBJECTS)
 
 $(OBJECTS): $(FILES)
-	gcc $(FLAGS) -c $(FILES)
+	CC $(FLAGS) -c $(FILES)
 
 clean:
 	rm -f $(OBJECTS)
@@ -67,5 +71,8 @@ fclean:
 	rm -f $(NAME) $(OBJECTS)
 
 re: fclean all
+
+bonus: $(OBJECTS_BONUS) $(OBJECTS)
+	ar arc $(NAME) $(OBJECTS) $(OBJECTS_BONUS)
 
 .PHONY: re all fclean clean
