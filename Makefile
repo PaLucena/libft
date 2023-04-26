@@ -6,7 +6,7 @@
 #    By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/18 16:54:11 by palucena          #+#    #+#              #
-#    Updated: 2023/04/26 11:54:31 by palucena         ###   ########.fr        #
+#    Updated: 2023/04/26 12:33:53 by palucena         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,7 +40,11 @@ FILES = ft_isalpha.c\
 	ft_split.c\
 	ft_itoa.c\
 	ft_strmapi.c\
-	ft_striteri
+	ft_striteri.c\
+	ft_putchar_fd.c\
+	ft_putstr_fd.c\
+	ft_putendl_fd.c\
+	ft_putnbr_fd.c
 
 OBJECTS = $(FILES:.c=.o)
 
