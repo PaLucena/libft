@@ -6,7 +6,7 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 13:09:58 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/21 12:43:47 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/26 13:15:54 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	char		*pt_dest;
 	const char	*pt_src;
 
+	if (!src && !dest)
+		return (0);
 	i = 0;
 	pt_dest = (char *)dest;
 	pt_src = (const char *)src;
