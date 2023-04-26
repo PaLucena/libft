@@ -6,7 +6,7 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 12:06:31 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/25 16:39:44 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/26 11:54:19 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ void			*ft_memset(void *str, int c, size_t len);
 char			**ft_split(char const *s, char c);
 char			*ft_strchr(const char *str, int c);
 char			*ft_strdup(const char *s);
+void	        ft_striteri(char *s, void (*f)(unsigned int, char*));
 char			*ft_strjoin(char const *s1, char const *s2);
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size);
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size);
