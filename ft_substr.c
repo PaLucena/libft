@@ -6,7 +6,7 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 12:20:15 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/26 12:52:37 by palucena         ###   ########.fr       */
+/*   Updated: 2023/04/26 12:58:27 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*sub;
-	size_t	j;
+	size_t	i;
 
 	if ((size_t)ft_strlen(s) < start)
 		return (ft_strdup(""));
@@ -25,16 +25,16 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub = malloc((len + 1) * sizeof(char));
 	if (!sub || !s)
 		return (0);
-	j = 0;
+	i = 0;
 	while (s[start])
 	{
-		if (j < len)
+		if (i < len)
 		{
-			sub[j] = s[start];
-			j++;
+			sub[i] = s[start];
+			i++;
 		}
 		start++;
 	}
-	sub[j] = 0;
+	sub[i] = 0;
 	return (sub);
 }
