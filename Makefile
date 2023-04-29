@@ -6,7 +6,7 @@
 #    By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/18 16:54:11 by palucena          #+#    #+#              #
-#    Updated: 2023/04/28 15:54:34 by palucena         ###   ########.fr        #
+#    Updated: 2023/04/29 18:33:37 by palucena         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -74,6 +74,7 @@ $(NAME): $(OBJ)
 
 $(OBJ): $(SOURCE)
 	$(CC) $(CFLAGS) -c $(SOURCE)
+
 clean:
 	rm -f $(OBJ) $(OBJ_BONUS)
 
