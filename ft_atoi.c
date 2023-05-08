@@ -6,11 +6,9 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 13:38:26 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/26 13:08:07 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/08 18:06:07 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-//#include <stdio.h>
 
 int	ft_atoi(const char *str)
 {
