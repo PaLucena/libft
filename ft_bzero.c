@@ -6,11 +6,9 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 12:58:16 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/20 09:51:08 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/08 18:07:20 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdlib.h>
 
 void	ft_bzero(void *str, size_t n)
 {
@@ -25,15 +23,3 @@ void	ft_bzero(void *str, size_t n)
 		i++;
 	}
 }
-
-/* #include <stdio.h>
-
-int	main(void)
-{
-	void	*str = "qwerty";
-
-	ft_bzero(str, 3);
-	printf("%s\n", str);
-	return (0);
-}
- */
