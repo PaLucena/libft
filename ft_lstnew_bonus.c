@@ -6,11 +6,10 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 14:01:20 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/28 15:50:50 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 13:20:05 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 t_list	*ft_lstnew(void *content)

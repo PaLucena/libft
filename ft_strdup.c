@@ -6,11 +6,10 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 11:51:57 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/21 17:12:36 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 13:05:16 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strdup(const char *s)

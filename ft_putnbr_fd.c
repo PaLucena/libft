@@ -6,11 +6,10 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 12:33:17 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/26 12:55:50 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 13:11:35 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)

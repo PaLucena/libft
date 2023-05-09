@@ -6,11 +6,10 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 12:20:15 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/26 12:58:27 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 13:06:05 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)

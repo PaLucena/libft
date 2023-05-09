@@ -6,11 +6,11 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 16:44:58 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/21 13:29:03 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 13:05:33 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 size_t	ft_strlcpy(char *dest, char *src, unsigned int size)
 {

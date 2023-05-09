@@ -6,11 +6,10 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/25 16:38:48 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/26 11:51:04 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 13:14:46 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))

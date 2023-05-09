@@ -6,11 +6,10 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 17:50:34 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/24 14:07:43 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 13:06:02 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 int	ft_start(char const *s1, char const *set)

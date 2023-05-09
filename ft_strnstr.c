@@ -6,11 +6,11 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 15:38:36 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/21 16:16:29 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 13:05:53 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 char	*ft_strnstr(char *str, char *to_find, size_t n)
 {

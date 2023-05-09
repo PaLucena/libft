@@ -6,11 +6,11 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 11:44:16 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/18 13:23:30 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 13:04:18 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 void	*ft_memset(void *str, int c, size_t len)
 {

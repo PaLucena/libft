@@ -6,11 +6,10 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/25 15:43:34 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/25 16:35:33 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 12:59:43 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 int	ft_count(long int n)

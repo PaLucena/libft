@@ -6,11 +6,10 @@
 /*   By: palucena <palucena@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 16:04:12 by palucena          #+#    #+#             */
-/*   Updated: 2023/04/25 15:39:48 by palucena         ###   ########.fr       */
+/*   Updated: 2023/05/09 13:05:08 by palucena         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 int	ft_wordcount(char const *s, char c)
